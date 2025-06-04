@@ -1,7 +1,7 @@
 import React, { useContext ,useState, useEffect} from 'react';
 import Layout from '../../Components/layout/Layout';
 import { db } from '../../utiltiy/firebase';
-import { DataContext } from '../../components/DataProvider/DataProvider';
+import { DataContext } from '../../Components/DataProvider/DataProvider';
 import classes from './Order.module.css'
 import { collection, doc, orderBy, query, onSnapshot, disableNetwork } from "firebase/firestore";
 import { data } from 'react-router-dom';
