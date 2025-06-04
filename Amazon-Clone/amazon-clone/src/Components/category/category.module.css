@@ -1,0 +1,83 @@
+/* .category__container{
+    display:grid;
+    position: relative;
+    margin-top: -10%;
+    grid-template-columns: repeat(4,1fr);
+    place-items: center;
+    
+}
+.category img{
+    width: 100%;
+    object-fit: contain;
+    max-height: 250px;
+    padding: 0px 10px;
+}
+.category a{
+
+    text-decoration: none;
+    color: rgb(35,35,35);
+
+}
+.category h2, .category p{
+   padding: 5px;
+   margin-left: 15px;
+}
+.category p{
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(9,132,209);
+}
+.category{
+    padding: 10px;
+    border-color: white;
+    background-color: white;
+} */
+
+
+.category__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  place-items: center;
+  max-width: 1200px ;
+  gap: 10px;
+
+  /* Move it up and ensure it's above the banner */
+  margin-top: -10%; /* tweak as needed */
+  position: relative;
+  z-index: 10; /* higher than the banner */
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.category {
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  position: relative;
+}
+
+.category img {
+  width: 100%;
+  object-fit: contain;
+  max-height: 250px;
+  padding: 0px 10px;
+  z-index: 10;
+}
+
+.category a {
+  text-decoration: none;
+  color: rgb(35, 35, 35);
+}
+
+.category h2,
+.category p {
+  padding: 5px;
+  margin-left: 15px;
+}
+
+.category p {
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(9, 132, 209);
+}
