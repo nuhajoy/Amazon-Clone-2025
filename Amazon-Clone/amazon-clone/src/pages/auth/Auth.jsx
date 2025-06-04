@@ -2,7 +2,7 @@ import React, { useState, useContext } from 'react';
 import Layout from '../../Components/layout/Layout';
 import { Link, useNavigate, useLocation} from "react-router-dom";
 
-import classes from "./Signup.module.css"
+import classes from "./SignUp.module.css"
 import { auth } from '../../utiltiy/firebase';
 import { signInWithEmailAndPassword, createUserWithEmailAndPassword } from 'firebase/auth';
 import { DataContext } from '../../Components/DataProvider/DataProvider';
