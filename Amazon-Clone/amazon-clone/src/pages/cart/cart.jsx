@@ -1,6 +1,6 @@
 // import React from 'react';
 import Layout from '../../Components/layout/Layout';
-import { DataContext } from '../../components/DataProvider/DataProvider';
+import { DataContext } from '../../Components/DataProvider/DataProvider';
 import React,{ useContext } from 'react';
 import ProductCard from '../../Components/product/ProductCard'
 import CurrencyFormat from '../../Components/currencyFormat/CurrencyFormat';
