@@ -1,8 +1,8 @@
 import React from 'react';
-import Layout from '../../components/layout/Layout';
-import Carousele from '../../components/carousel/carousel';
-import Category from '../../components/category/Category';
-import Product from '../../components/product/product';
+import Layout from '../../Components/layout/Layout';
+import Carousele from '../../Components/carousel/carousel';
+import Category from '../../Components/category/Category';
+import Product from '../../Components/product/product';
 
 
 

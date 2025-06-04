@@ -5,7 +5,7 @@ import Class from './productdetail.module.css';
 import { Rating } from '@mui/material';
 import CurrencyFormat from '../../Components/currencyFormat/CurrencyFormat';
 import ProductCard from '../../Components/product/ProductCard';
-import Layout from '../../components/layout/Layout';
+import Layout from '../../Components/layout/Layout';
 import Loader from '../../Components/loader/Loader';
 
 

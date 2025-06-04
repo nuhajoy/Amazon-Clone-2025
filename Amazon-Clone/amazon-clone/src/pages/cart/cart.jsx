@@ -1,5 +1,5 @@
 // import React from 'react';
-import Layout from '../../components/layout/Layout';
+import Layout from '../../Components/layout/Layout';
 import { DataContext } from '../../components/DataProvider/DataProvider';
 import React,{ useContext } from 'react';
 import ProductCard from '../../Components/product/ProductCard'

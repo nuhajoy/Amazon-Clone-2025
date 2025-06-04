@@ -1,11 +1,11 @@
 import React, { useState, useContext } from 'react';
-import Layout from '../../components/layout/Layout';
+import Layout from '../../Components/layout/Layout';
 import { Link, useNavigate, useLocation} from "react-router-dom";
 
 import classes from "./Signup.module.css"
 import { auth } from '../../utiltiy/firebase';
 import { signInWithEmailAndPassword, createUserWithEmailAndPassword } from 'firebase/auth';
-import { DataContext } from '../../components/DataProvider/DataProvider';
+import { DataContext } from '../../Components/DataProvider/DataProvider';
 import { Type } from '../../utiltiy/ActionType';
 import { ClipLoader } from 'react-spinners';
 

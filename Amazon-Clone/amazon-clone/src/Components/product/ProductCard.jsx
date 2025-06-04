@@ -3,7 +3,7 @@ import { Rating } from '@mui/material';
 import CurrencyFormat from '../currencyFormat/CurrencyFormat';
 import Class from './product.module.css'
 import { Link } from 'react-router-dom';
-import { DataContext } from "../../components/DataProvider/DataProvider";
+import { DataContext } from '../DataProvider/DataProvider';
 
 import { Type } from '../../utiltiy/ActionType';
 
